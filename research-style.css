@@ -1,0 +1,81 @@
+body {
+    text-align: center;
+    background-image: url("https://wallpaperaccess.com/full/2196540.jpg");
+    font-family: "Monospace", "Lucida Console";
+    color: #e6f3ff;
+    margin: 0;
+    padding: 0;
+}
+body::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: -1;
+}
+
+/* header styles */
+h1 {
+    line-height: 100px;
+    color: white;
+    background-color: #262626;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+/* link styles */
+a {
+    color: #DDB771;
+    text-decoration: none;
+    margin-right: 20px;
+}
+a:hover {
+    background-color: #1B998B;
+    border-radius: 10px;
+    padding: 5px;
+}
+a:visited {
+    color: #DDB771;
+}
+
+/* post container styles */
+.post {
+    background-color: #262626;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    text-align: left;
+}
+
+/* post title styles */
+.post-title {
+    font-size: 24px;
+    color: #DDB771;
+    margin-bottom: 10px;
+}
+
+/* post text styles */
+.post-text {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #e6f3ff;
+    margin-bottom: 20px;
+}
+
+/* quote styles */
+.post-quote {
+    font-size: 20px;
+    font-style: italic;
+    line-height: 1.7;
+    color: #DDB771;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 15px;
+    border-left: 5px solid #1B998B;
+    margin: 20px 0 0 0;
+}
